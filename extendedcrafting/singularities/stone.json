@@ -1,0 +1,11 @@
+{
+    "name": "Moon Stone",
+    "colors": [
+      "4e535a",
+      "1e1b20"
+    ],
+    "materialCount": 10000,
+    "ingredient": {
+      "item": "beyond_earth:moon_stone"
+    }
+  }

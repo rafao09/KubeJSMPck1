@@ -1,0 +1,11 @@
+{
+    "name": "Calorite",
+    "colors": [
+      "d86767",
+      "b04848"
+    ],
+    "materialCount": 1500,
+    "ingredient": {
+      "item": "beyond_earth:calorite_ingot"
+    }
+  }

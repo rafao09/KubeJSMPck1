@@ -1,0 +1,10 @@
+{
+  "name": "Rose Gold",
+  "colors": [
+    "eec3a5",
+    "f2d0b9"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/rose_gold"
+  }
+}

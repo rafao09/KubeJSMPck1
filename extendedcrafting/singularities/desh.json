@@ -1,0 +1,11 @@
+{
+    "name": "Desh",
+    "colors": [
+      "e9b000",
+      "ff9f1a"
+    ],
+    "materialCount": 1500,
+    "ingredient": {
+      "item": "beyond_earth:desh_ingot"
+    }
+  }

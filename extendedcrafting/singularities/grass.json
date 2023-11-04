@@ -1,0 +1,11 @@
+{
+    "name": "Grass",
+    "colors": [
+      "398300",
+      "926d4f"
+    ],
+    "materialCount": 5000,
+    "ingredient": {
+      "item": "minecraft:grass_block"
+    }
+  }
