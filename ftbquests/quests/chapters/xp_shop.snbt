@@ -1,0 +1,99 @@
+{
+	id: "5AE7DF4DB7012AE0"
+	group: ""
+	order_index: 3
+	filename: "xp_shop"
+	title: "XP Shop"
+	icon: "minecraft:experience_bottle"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Infinite Battery"
+			icon: "cyclic:battery_infinite"
+			x: -1.0d
+			y: 0.0d
+			dependencies: [
+				"03E673A95F61E07A"
+				"5922E3DA302A1D46"
+			]
+			optional: true
+			can_repeat: true
+			id: "32B0D3BFD7319FF8"
+			tasks: [{
+				id: "36CC305F60251ABC"
+				type: "xp"
+				value: 55L
+				points: false
+			}]
+			rewards: [{
+				id: "35232B4E2B9A91DC"
+				type: "item"
+				item: "cyclic:battery_infinite"
+			}]
+		}
+		{
+			title: "Creative Energy Cell"
+			icon: "ae2:creative_energy_cell"
+			x: 1.0d
+			y: 0.0d
+			dependencies: [
+				"03E673A95F61E07A"
+				"5922E3DA302A1D46"
+			]
+			optional: true
+			can_repeat: true
+			id: "1405305C5636656B"
+			tasks: [{
+				id: "07CE10497EE1F92A"
+				type: "xp"
+				value: 50L
+				points: false
+			}]
+			rewards: [{
+				id: "3780BD6A51A95602"
+				type: "item"
+				item: "ae2:creative_energy_cell"
+			}]
+		}
+		{
+			title: "Creative Jetpack"
+			icon: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:creative"
+					Throttle: 1.0d
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"03E673A95F61E07A"
+				"5922E3DA302A1D46"
+			]
+			optional: true
+			can_repeat: true
+			id: "11AFE288F6DE8780"
+			tasks: [{
+				id: "44455017315BC468"
+				type: "xp"
+				value: 65L
+				points: false
+			}]
+			rewards: [{
+				id: "08D9990F6FD53388"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:creative"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

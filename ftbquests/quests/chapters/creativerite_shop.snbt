@@ -1,0 +1,674 @@
+{
+	id: "735A39224257CEAB"
+	group: ""
+	order_index: 2
+	filename: "creativerite_shop"
+	title: "Creativerite Shop"
+	icon: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Creativerite Sword"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_sword"
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["28B865D1107B7EBE"]
+			optional: true
+			can_repeat: true
+			id: "397574CCA67B77EF"
+			tasks: [
+				{
+					id: "5AED5500C79A5BC4"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "60B9F8894E724211"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "12E0B460F8B5F948"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "57B93D45976EB255"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_sword"
+				}
+				{
+					id: "0B1F952798925061"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["081556F66EC2889E"]
+			optional: true
+			id: "28B865D1107B7EBE"
+			tasks: [{
+				id: "4F804A694E6E83B4"
+				type: "checkmark"
+				title: "Tools"
+			}]
+			rewards: [{
+				id: "19C046A08D8C72D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Creativerite Pickaxe"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_pickaxe"
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["28B865D1107B7EBE"]
+			optional: true
+			can_repeat: true
+			id: "46A6CF8E4509060F"
+			tasks: [
+				{
+					id: "7EF0FBB8929704CA"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "45FD39FC0E3AB233"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "04D78954E25ABB44"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "0BB6939F74767AD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Creativerite Axe"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_axe"
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["28B865D1107B7EBE"]
+			optional: true
+			can_repeat: true
+			id: "108BCE6A6507CEB8"
+			tasks: [
+				{
+					id: "6B017C2177183F1F"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "37F55FF15F65DBAF"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "57B922CEE2AD80F4"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "078ECB8D5728025F"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_axe"
+				}
+				{
+					id: "77936D67A3AA8813"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Shovel"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_shovel"
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["28B865D1107B7EBE"]
+			optional: true
+			can_repeat: true
+			id: "1D18DE3815DF5DB6"
+			tasks: [
+				{
+					id: "6A5560E4E68D5490"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "52CBB0FC3B6939C3"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5E02A86E811D0B67"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "7F4778318AD6EDDD"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_shovel"
+				}
+				{
+					id: "5AE0C2265E4B4B79"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Shield"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_shield"
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["28B865D1107B7EBE"]
+			optional: true
+			can_repeat: true
+			id: "47C4B4BCC30038C1"
+			tasks: [
+				{
+					id: "09F9D1860CD8FB9B"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "3E4F98C987D3FFCA"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3C8EB09ED1A759F2"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "048E80D9332A2C5C"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_shield"
+				}
+				{
+					id: "060043F30A4F9E9C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Crossbow"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_crossbow"
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["28B865D1107B7EBE"]
+			optional: true
+			can_repeat: true
+			id: "7A6E9C4EB13634C5"
+			tasks: [
+				{
+					id: "2A51622C02AE077C"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "183EFFF37DE52708"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "66A4A3BCF2D1F85B"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "3BB31A9FDE300BBF"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_crossbow"
+				}
+				{
+					id: "4DABB571123848D7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Bow"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_bow"
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["28B865D1107B7EBE"]
+			optional: true
+			can_repeat: true
+			id: "2E3DAB91CE17BD92"
+			tasks: [
+				{
+					id: "2AE310346D3AFE35"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "355FEDA2FFE8BCA2"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1DE463C18FDC600A"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "09F2C338DA2504F9"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_bow"
+				}
+				{
+					id: "14F7A98BA633EEE1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Armor"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["081556F66EC2889E"]
+			optional: true
+			id: "42CA6AC273996BC4"
+			tasks: [{
+				id: "1DD125C357922C48"
+				type: "checkmark"
+				title: "Tools"
+			}]
+			rewards: [{
+				id: "3EE10FA34DAD3890"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Creativerite Helmet"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_helmet"
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["42CA6AC273996BC4"]
+			optional: true
+			can_repeat: true
+			id: "0004FBCE4321D999"
+			tasks: [
+				{
+					id: "6CA2C54889C0679C"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "1AAC90CB0690D2EC"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5DDEAED812676580"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "496D9DABAA4816E4"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_helmet"
+				}
+				{
+					id: "2EB20D2160B270F4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Chestplate"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["42CA6AC273996BC4"]
+			optional: true
+			can_repeat: true
+			id: "7E41D02B21F6C287"
+			tasks: [
+				{
+					id: "6A98F33E02F06F83"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "0962FB29B53D6572"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "571A36FB56413982"
+					type: "xp"
+					value: 15L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "7AA5643F9BAE9D98"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
+				}
+				{
+					id: "577BB7BAEA8346C4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Leggings"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_leggings"
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["42CA6AC273996BC4"]
+			optional: true
+			can_repeat: true
+			id: "0F8A987AB879F14E"
+			tasks: [
+				{
+					id: "49CA922BC03AF0F5"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "0FA2AB3EA51094ED"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "667D94083A7C528B"
+					type: "xp"
+					value: 15L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "5D0E86B0E26C8224"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_leggings"
+				}
+				{
+					id: "706B6240D7F1D034"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Boots"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_boots"
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["42CA6AC273996BC4"]
+			optional: true
+			can_repeat: true
+			id: "5312C9C24685C019"
+			tasks: [
+				{
+					id: "26DA9C2217FA6803"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "73E0752F5FD3A7C4"
+					type: "item"
+					item: {
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "381E6E9EE6A816AF"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "07BF2B18C803DFAB"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_boots"
+				}
+				{
+					id: "244B3296DDA8FB08"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Items"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["081556F66EC2889E"]
+			optional: true
+			id: "3DAB0A86F4B574B2"
+			tasks: [{
+				id: "4B901653252DAFA1"
+				type: "checkmark"
+				title: "Tools"
+			}]
+			rewards: [{
+				id: "79B486C570E33B22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Creativerite Horse Armor"
+			icon: "upgradednetherite_creative:creative_upgraded_netherite_horse_armor"
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["3DAB0A86F4B574B2"]
+			optional: true
+			can_repeat: true
+			id: "4F4056B9C7495BD2"
+			tasks: [
+				{
+					id: "0C49696E126FADB5"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "035FEA6C193256A8"
+					type: "item"
+					item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_horse_armor"
+					consume_items: true
+				}
+				{
+					id: "55F2DBC80F39F9E4"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "0802C9600C5126CD"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_horse_armor"
+				}
+				{
+					id: "3EAB0E73239C136B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creativerite Totem of Undying"
+			icon: "upgradednetherite_items:creative_upgraded_netherite_totem"
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["3DAB0A86F4B574B2"]
+			optional: true
+			can_repeat: true
+			id: "57ED169D0031E86E"
+			tasks: [
+				{
+					id: "6989B1993741B42D"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+					consume_items: true
+				}
+				{
+					id: "23B435BAE93F5C64"
+					type: "item"
+					item: "upgradednetherite_items:ultimate_upgraded_netherite_totem"
+					consume_items: true
+				}
+				{
+					id: "1316571641677A56"
+					type: "xp"
+					value: 20L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "1E13DA03ADED16D9"
+					type: "item"
+					item: "upgradednetherite_items:creative_upgraded_netherite_totem"
+				}
+				{
+					id: "250CD110389B8761"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

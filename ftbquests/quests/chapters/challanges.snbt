@@ -1,0 +1,743 @@
+{
+	id: "5D75EE60ABA676D2"
+	group: ""
+	order_index: 0
+	filename: "challanges"
+	title: "Challanges"
+	icon: "extendedcrafting:the_ultimate_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["03E673A95F61E07A"]
+			id: "172629CA920554F8"
+			tasks: [{
+				id: "55E705927B9AC43D"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+			rewards: [{
+				id: "284F6703155E1F32"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "pentagon"
+			dependencies: ["03E673A95F61E07A"]
+			id: "18C64FE358F0DCF6"
+			tasks: [{
+				id: "3220FDE565AFBC33"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [{
+				id: "25577BC5EB2F016B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["03E673A95F61E07A"]
+			id: "3A12A22FBEB6C2C3"
+			tasks: [{
+				id: "585B5B4E8F903FCE"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "7478BA65DC6C0E8C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["172629CA920554F8"]
+			id: "6C1008F891FB37CF"
+			tasks: [{
+				id: "10621463B814DFA3"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_catalyst"
+			}]
+			rewards: [{
+				id: "535B6BB1B6DD8CE3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: [
+				"172629CA920554F8"
+				"6C1008F891FB37CF"
+				"3A12A22FBEB6C2C3"
+				"18C64FE358F0DCF6"
+			]
+			id: "5922E3DA302A1D46"
+			tasks: [{
+				id: "728706FC684F93EB"
+				type: "checkmark"
+				title: "Creative Items"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["5922E3DA302A1D46"]
+			id: "064722154FDC6D8A"
+			tasks: [{
+				id: "2265CCC8E4D65113"
+				type: "checkmark"
+				title: "Mekanism"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: [
+				"064722154FDC6D8A"
+				"1D40AABE8E1C1D8F"
+			]
+			id: "34F5D78D126932A9"
+			tasks: [{
+				id: "5AC145410A3005BB"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "606C73E7D5FAF3DF"
+					type: "item"
+					item: {
+						id: "mekanism:creative_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "1A339A40B201EC3C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			shape: "pentagon"
+			dependencies: ["064722154FDC6D8A"]
+			id: "342B245013A4F0C8"
+			tasks: [{
+				id: "34B2E98FD4FBDF43"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "7AB49D4F40D7388A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["064722154FDC6D8A"]
+			id: "3F487638C7D286CD"
+			tasks: [{
+				id: "085D98283A76CD2D"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "0461581D26A207BB"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: ["064722154FDC6D8A"]
+			id: "4B0EBE1932864675"
+			tasks: [{
+				id: "24D638C4FDCB5FF2"
+				type: "item"
+				item: "mekanism:creative_bin"
+			}]
+			rewards: [{
+				id: "2AA5F62F3BE1FA1D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["34F5D78D126932A9"]
+			optional: true
+			can_repeat: true
+			id: "0E7FEF20A038720C"
+			tasks: [{
+				id: "5CB84471015BBE3B"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1CED1E551C7FB44F"
+					type: "item"
+					item: {
+						id: "mekanism:creative_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "4B6569E8A7166EA3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			shape: "square"
+			dependencies: ["5922E3DA302A1D46"]
+			id: "3F13F3128271C3A2"
+			tasks: [{
+				id: "30F4A6E80284A999"
+				type: "checkmark"
+				title: "Applied Energistics 2 (AE2)"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			shape: "rsquare"
+			dependencies: ["3F13F3128271C3A2"]
+			id: "3A42B253002D1084"
+			tasks: [{
+				id: "703335B0EC21DE9D"
+				type: "item"
+				item: "ae2:creative_fluid_cell"
+			}]
+			rewards: [{
+				id: "50FAE53420079C49"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			shape: "square"
+			dependencies: ["5922E3DA302A1D46"]
+			id: "2AEEE97468022182"
+			tasks: [{
+				id: "432157C38027CAC4"
+				type: "checkmark"
+				title: "Thermal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["2AEEE97468022182"]
+			id: "492D51F6CF57272C"
+			tasks: [{
+				id: "053A3054FCA58C6C"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+			rewards: [{
+				id: "448B78B1EB5F103B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["2AEEE97468022182"]
+			id: "152861C5E7006769"
+			tasks: [{
+				id: "2BD1F420BAA32914"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			rewards: [{
+				id: "3B369C0B1F0AB98B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["2AEEE97468022182"]
+			id: "720E9DDEC3BABD29"
+			tasks: [{
+				id: "4855B5AE70D08267"
+				type: "item"
+				item: "thermal:fluid_tank_creative_augment"
+			}]
+			rewards: [{
+				id: "13260A04FDAB3F29"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			shape: "square"
+			dependencies: ["5922E3DA302A1D46"]
+			id: "101AEC67D8E64A0C"
+			tasks: [{
+				id: "3BB6B071CBD3A0FB"
+				type: "checkmark"
+				title: "Tinkers Construct"
+			}]
+		}
+		{
+			title: "Creative Upgrade"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["101AEC67D8E64A0C"]
+			id: "787D7FB5D58C2F5D"
+			tasks: [{
+				id: "23D4CB661C3C2C81"
+				type: "item"
+				item: "kubejs:reinforcement_module"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "552EC5CAE78C7B83"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "1376AF91897DBCCC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Creative Upgrade"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			x: -0.5d
+			y: 7.5d
+			dependencies: ["787D7FB5D58C2F5D"]
+			optional: true
+			can_repeat: true
+			id: "66B132ECD99B5976"
+			tasks: [{
+				id: "02E67420C6A516BE"
+				type: "item"
+				item: "kubejs:reinforcement_module"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0C1108D58F3D5549"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "452D8865F9702670"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Creative Defense Slot"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+			x: 0.5d
+			y: 6.5d
+			dependencies: ["101AEC67D8E64A0C"]
+			id: "48F4F39261224468"
+			tasks: [{
+				id: "19AA44D0038E780B"
+				type: "item"
+				item: "kubejs:defense_module"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1F2D1211DF6597F1"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "defense"
+						}
+					}
+				}
+				{
+					id: "4D6D19FD84A27196"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+			x: 0.5d
+			y: 7.5d
+			dependencies: ["48F4F39261224468"]
+			optional: true
+			can_repeat: true
+			id: "0EF00C1504597114"
+			tasks: [{
+				id: "0AD4DCCD6827F33D"
+				type: "item"
+				item: "kubejs:defense_module"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "03E2BFC6E96BDE2E"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "defense"
+						}
+					}
+				}
+				{
+					id: "53D55B65667EF311"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["101AEC67D8E64A0C"]
+			id: "3B59860A00EEAC3E"
+			tasks: [{
+				id: "540F3A14A86C2C0D"
+				type: "item"
+				item: "kubejs:ability_module"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "15D6CE9A785FE2C5"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+				}
+				{
+					id: "726B56381BB7872E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["3B59860A00EEAC3E"]
+			optional: true
+			can_repeat: true
+			id: "1052FF8824FED2B4"
+			tasks: [{
+				id: "1ED4DCCA60583D96"
+				type: "item"
+				item: "kubejs:ability_module"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7073440D24AA3CED"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+				}
+				{
+					id: "52C4E101573A052A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["5922E3DA302A1D46"]
+			id: "0A257A728A8699CF"
+			tasks: [{
+				id: "182D39EAA0CEB07F"
+				type: "checkmark"
+				title: "Other Mods"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			shape: "rsquare"
+			dependencies: ["0A257A728A8699CF"]
+			id: "46AF111558478F72"
+			tasks: [{
+				id: "19BE9C6B22A2C9E0"
+				type: "item"
+				item: "ironcoals:aeon_coal"
+			}]
+			rewards: [{
+				id: "3FD72F685E4D6746"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: ["0A257A728A8699CF"]
+			id: "1644BE285FA88C98"
+			tasks: [{
+				id: "468C4635D0E23FAD"
+				type: "item"
+				item: "mysticalagriculture:creative_soulium_dagger"
+			}]
+			rewards: [{
+				id: "3E0F38CBD85A45AE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			shape: "rsquare"
+			dependencies: ["3F13F3128271C3A2"]
+			id: "069A17C096482721"
+			tasks: [{
+				id: "3D148AF6CAD5179A"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			shape: "pentagon"
+			dependencies: [
+				"0A257A728A8699CF"
+				"3BBE27DCA842699A"
+			]
+			id: "115D4019B3938345"
+			tasks: [{
+				id: "26AB0EBBF2412A1B"
+				type: "item"
+				item: "solarpanels:creative_solar_panel"
+			}]
+			rewards: [{
+				id: "78FD7A4C5353DC8E"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "Creative Sun"
+			x: -7.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: [
+				"03E673A95F61E07A"
+				"182D39EAA0CEB07F"
+			]
+			id: "3BBE27DCA842699A"
+			tasks: [
+				{
+					id: "42B83D9A8A526A9B"
+					type: "item"
+					item: "solarpanels:creative_solar_element"
+				}
+				{
+					id: "1D40AABE8E1C1D8F"
+					type: "item"
+					item: "solarpanels:creative_energy_tablet"
+				}
+			]
+			rewards: [{
+				id: "1260881813819E91"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["0A257A728A8699CF"]
+			id: "081556F66EC2889E"
+			tasks: [{
+				id: "6A30EF1466948666"
+				type: "item"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "2949307799F046B3"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["0A257A728A8699CF"]
+			id: "38EC8FFA346BD3F0"
+			tasks: [{
+				id: "1945277EB51DA994"
+				type: "item"
+				item: "botanypotstiers:creative_terracotta_botany_pot"
+			}]
+			rewards: [{
+				id: "5C857C13A6A77466"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["0A257A728A8699CF"]
+			id: "1A1B6DF9C12E628E"
+			tasks: [{
+				id: "29EF81C06862A63F"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "362C1B8000118461"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["0A257A728A8699CF"]
+			id: "7663B4BCCD81D862"
+			tasks: [{
+				id: "0E144E0D607C98D8"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "65B8F90F9ADA3F1F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+	]
+	quest_links: [ ]
+}

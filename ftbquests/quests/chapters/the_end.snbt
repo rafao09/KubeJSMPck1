@@ -1,0 +1,30 @@
+{
+	id: "23E0880DACB5A2C7"
+	group: ""
+	order_index: 4
+	filename: "the_end"
+	title: "The End"
+	icon: "cyclic:item_infinite"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: [
+			"5D75EE60ABA676D2"
+			"03E673A95F61E07A"
+		]
+		id: "248AE6B315B0B9E9"
+		tasks: [{
+			id: "360891DCD6661354"
+			type: "item"
+			item: "cyclic:item_infinite"
+		}]
+		rewards: [{
+			id: "2975B9614A86519B"
+			type: "xp_levels"
+			xp_levels: 100
+		}]
+	}]
+	quest_links: [ ]
+}

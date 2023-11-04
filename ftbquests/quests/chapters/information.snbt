@@ -1,0 +1,144 @@
+{
+	id: "03E673A95F61E07A"
+	group: ""
+	order_index: 1
+	filename: "information"
+	title: "Information"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "square"
+			id: "19C967D4E54ACC83"
+			tasks: [{
+				id: "77C107E09084A9FD"
+				type: "checkmark"
+				title: "Information"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "square"
+			description: ["The Raritys show how difficult is to craft the item, when more higher is the rarity, more XP Levels you can collect."]
+			dependencies: ["19C967D4E54ACC83"]
+			id: "1CFF86F4C633AF56"
+			tasks: [{
+				id: "6F8178B2099546CC"
+				type: "checkmark"
+				title: "Raritys"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["1CFF86F4C633AF56"]
+			id: "656CEBFD7241333E"
+			tasks: [{
+				id: "405B7C02D06188ED"
+				type: "checkmark"
+				title: "Common"
+			}]
+			rewards: [{
+				id: "4515AED604F06C0A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "rsquare"
+			dependencies: ["1CFF86F4C633AF56"]
+			id: "490035A53747956A"
+			tasks: [{
+				id: "29202A39114F0313"
+				type: "checkmark"
+				title: "Uncommon"
+			}]
+			rewards: [{
+				id: "60CE2AE5A7C92C82"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["1CFF86F4C633AF56"]
+			id: "71B8A9B8D6AFB4EB"
+			tasks: [{
+				id: "4489701376432217"
+				type: "checkmark"
+				title: "Rare"
+			}]
+			rewards: [{
+				id: "19B2E253E71B229D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "pentagon"
+			dependencies: ["1CFF86F4C633AF56"]
+			id: "285080E53AA56872"
+			tasks: [{
+				id: "26D422A446E1BC91"
+				type: "checkmark"
+				title: "Epic"
+			}]
+			rewards: [{
+				id: "01C7DB9C4B62DFE1"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "Legendary"
+			x: 2.5d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["1CFF86F4C633AF56"]
+			id: "5B0FF3EF671B3B18"
+			tasks: [{
+				id: "29442B307EFD82B1"
+				type: "checkmark"
+				title: "Legendery"
+			}]
+			rewards: [{
+				id: "39B78A1DB8487463"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: [
+				"285080E53AA56872"
+				"71B8A9B8D6AFB4EB"
+				"5B0FF3EF671B3B18"
+				"490035A53747956A"
+				"656CEBFD7241333E"
+			]
+			id: "1D534748A4DDC19E"
+			tasks: [{
+				id: "19A0EAE65F777044"
+				type: "checkmark"
+				title: "Mitic"
+			}]
+			rewards: [{
+				id: "6C814077A8EB5461"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+	]
+	quest_links: [ ]
+}
